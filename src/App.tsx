@@ -27,7 +27,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://pruebas.paseandoporvenezuela.com/webhook/fca17f77-7c13-4a6b-b08b-ebb9eb650568/chat', {
+      const response = await fetch('https://n8n.vzla.travel/webhook/fca17f77-7c13-4a6b-b08b-ebb9eb650568/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
